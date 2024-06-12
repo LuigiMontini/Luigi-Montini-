@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luigi Monttini - Especialista Imobiliário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #537C1E;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        #about {
+            background-color: #9DC834;
+            color: #1C2B10;
+        }
+        #portfolio {
+            background-color: #C64025;
+            color: white;
+        }
+        #contact {
+            background-color: #EA423F;
+            color: white;
+        }
+        footer {
+            background-color: #6D0202;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .portfolio-item {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Luigi Monttini</h1>
+    <p>Especialista Imobiliário em São José do Rio Preto</p>
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contact">Contato</a>
+    </nav>
+</header>
+
+<section id="about" class="section">
+    <h2>Sobre Mim</h2>
+    <p>Olá, sou Luigi Monttini, especialista imobiliário com 5 anos de experiência no mercado de São José do Rio Preto. Atuo principalmente com empreendimentos populares e de médio padrão, ajudando meus clientes a encontrar o lar dos seus sonhos.</p>
+    <p>CRECI/SP 276158-f</p>
+</section>
+
+<section id="portfolio" class="section">
+    <h2>Portfólio</h2>
+    <div class="portfolio-item">
+        <h3>Empreendimento 1</h3>
+        <p>Descrição do empreendimento popular ou de médio padrão.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Empreendimento 2</h3>
+        <p>Descrição do empreendimento popular ou de médio padrão.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Empreendimento 3</h3>
+        <p>Descrição do empreendimento popular ou de médio padrão.</p>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contato</h2>
+    <p>Telefone: <a href="tel:+5517997326054" style="color: white;">(17) 99732-6054</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/Luigimonttini_" target="_blank" style="color: white;">@Luigimonttini_</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Luigi Monttini. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
